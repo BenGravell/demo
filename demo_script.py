@@ -29,6 +29,10 @@ def gradient_descent(cost_gradient, step_size, num_iters, x0):
 
 
 if __name__ == "__main__":
+    # Plot initialization
+    plt.ioff()
+    # plt.figure(figsize=(8, 8))
+
     # Problem definition
     a = 1
     b = 100
